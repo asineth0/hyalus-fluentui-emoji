@@ -1,0 +1,19 @@
+{
+  "name": "hyalus-fluentui-emoji",
+  "version": "1.0.0",
+  "description": "Fluent UI Emoji for Hyalus",
+  "main": "dist/metadata.json",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node generate.js"
+  },
+  "keywords": [],
+  "author": "Asineth <asineth@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "sharp": "^0.32.6"
+  }
+}
